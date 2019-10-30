@@ -44,3 +44,5 @@ Function Get-PowerPlanSettingId
         Throw "Couldn't retrieve a powerplan setting for $Name"
     }
 }
+
+Export-ModuleMember -Function Get-PowerPlanSettingId
