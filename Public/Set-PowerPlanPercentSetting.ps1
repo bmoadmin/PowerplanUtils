@@ -41,6 +41,7 @@ Function Set-PowerPlanPercentSetting
     )
     
     $SettingObject | Set-CimInstance -Property @{SettingIndexValue = [int]$PowerSettingPercent}
+    $SettingObject
 }
 
 Export-ModuleMember -Function Set-PowerPlanPercentSetting
