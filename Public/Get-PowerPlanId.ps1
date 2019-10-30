@@ -49,3 +49,5 @@ Function Get-PowerPlanId
         }).InstanceID).Replace("Microsoft:PowerPlan\","")
     }
 }
+
+Export-ModuleMember -Function Get-PowerPlanId
